@@ -258,10 +258,10 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zammit]
+  first_name: [Isaac]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
