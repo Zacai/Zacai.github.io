@@ -35,9 +35,6 @@
           </button>
 
           <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <h3 href="https://zacai.github.io/" style="height: 24px">
-              <strong>Isaac</strong> Zammit
-            </h3>
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               {%- for page in site.pages -%}
@@ -58,7 +55,7 @@
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
+                  {%- if page.permalink == '/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
